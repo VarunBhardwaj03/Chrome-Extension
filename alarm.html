@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="alarm.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="container_flex-3">
+
+    <form>
+               <div class="form-group">
+                   <label for="alarm"><h1>Set Alarm</h1></label>
+                      <h2>Enter the time in yyyy-mm-dd hh:mm:ss</h2>
+                   <input type="text" class="form-control" id="alarm" name="alarm"
+                       placeholder="Enter the time in yyyy-mm-dd hh:mm:ss">
+               </div>
+
+
+               <button id="alarmSubmit" type="submit" class="btn btn-primary">Set Alarm</button>
+           </form>
+           <div class="contain-clock">
+  <div class="face-1">
+    <div class="hour"></div>
+    <div class="minute"></div>
+    <div class="second"></div>
+    <div class="center"></div>
+  </div>
+
+  <div class="face-2">
+    <div class="line"></div>
+    <div class="line line-2"></div>
+    <div class="line line-3"></div>
+    <div class="line line-4"></div>
+    <div class="line line-5"></div>
+    <div class="line line-6"></div>
+  </div>
+
+  <div class="arm"></div>
+  <div class="arm arm-2"></div>
+
+  <div class="bell"></div>
+  <div class="bell bell-2"></div>
+
+  <div class="hammer"></div>
+
+  <div class="handle"></div>
+</div>
+    </div>
+  </body>
+  <script src="alarm.js" charset="utf-8"></script>
+</html>

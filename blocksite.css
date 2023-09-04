@@ -1,0 +1,28 @@
+.lala{
+display: flex;
+flex-direction:  row;
+padding: 50px;
+}
+#save{
+  width: 100px;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+#save:hover {
+  background-color: red;
+}
+.photo{
+  height: 500px;
+  padding: 100px;
+}
+.la{
+  font-size: 1.5em;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  color: #FFF338;
+background-repeat: no-repeat;
+background-color: #082032;
+}
